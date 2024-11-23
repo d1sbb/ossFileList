@@ -7,9 +7,12 @@
 安装：  
 `pip3 install pandas`
 
-使用：  
+使用：   
 `python3 ossFileList.py -u https://xxx.oss-cn-xxx.aliyuncs.com/`  
 ![use](https://raw.githubusercontent.com/d1sbb/ossFileList/refs/heads/main/assets/use.png)
+ 
+`python3 ossFileList.py -f file.txt`  
+![use](https://raw.githubusercontent.com/d1sbb/ossFileList/refs/heads/main/assets/-f.png)
 
 优化：  
 1.自动生成的csv文件后，通过filetype拆分成不同的工作表，易读。
@@ -21,9 +24,6 @@
 2.修复XML解析有误，无法遍历的bug
 
 ![XML解析有误](https://raw.githubusercontent.com/d1sbb/ossFileList/refs/heads/main/assets/XML%E8%A7%A3%E6%9E%90%E6%9C%89%E8%AF%AF.png)
-
-TODO:  
-下个版本增加url批量 `python3 ossFileList.py -f filename`
 
 
 免责声明
